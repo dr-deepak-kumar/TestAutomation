@@ -1,0 +1,12 @@
+2023-05-22 11:24:42,214 ************************** Test Execution Started ************************************ 
+2023-05-22 11:24:43,629 Google search test: Test started 
+2023-05-22 11:24:43,629 Facebook login test: Test started 
+2023-05-22 11:24:48,470 Google search test : Test Passed 
+2023-05-22 11:24:53,258 Facebook login test : Test Failed : Login failed : Test failed expected [true] but found [false] 
+2023-05-22 11:24:53,721 Total number of testcases : 2 
+2023-05-22 11:24:53,721 Number of testcases Passed : 1 
+2023-05-22 11:24:53,721 Number of testcases Failed : 1 
+2023-05-22 11:24:53,721 Number of testcases Skipped  : 0 
+2023-05-22 11:24:53,721 Mail sending toggel is set to false 
+2023-05-22 11:24:53,721 Mail sent : false 
+2023-05-22 11:24:53,721 ************************** Test Execution Finished ************************************ 
