@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-22T05:54:42Z" name="Suite" finished-at="2023-05-22T05:54:53Z" duration-ms="11284">
+    <groups>
+    </groups>
+    <test started-at="2023-05-22T05:54:42Z" name="Test" finished-at="2023-05-22T05:54:53Z" duration-ms="11284">
+      <class name="example.example.tests.FaceBookLoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:example.example.tests.FaceBookLoginTest@595b007d]" started-at="2023-05-22T05:54:42Z" name="setup" test-instance-name="Facebook login test" finished-at="2023-05-22T05:54:43Z" duration-ms="1318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="facebookLoginTest()[pri:0, instance:example.example.tests.FaceBookLoginTest@595b007d]" started-at="2023-05-22T05:54:43Z" name="facebookLoginTest" description="Facebook login test" test-instance-name="Facebook login test" finished-at="2023-05-22T05:54:44Z" duration-ms="968" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login failed : Test failed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login failed : Test failed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at example.example.tests.FaceBookLoginTest.facebookLoginTest(FaceBookLoginTest.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookLoginTest -->
+        <test-method is-config="true" signature="wrapUp()[pri:0, instance:example.example.tests.FaceBookLoginTest@595b007d]" started-at="2023-05-22T05:54:53Z" name="wrapUp" test-instance-name="Facebook login test" finished-at="2023-05-22T05:54:53Z" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrapUp -->
+      </class> <!-- example.example.tests.FaceBookLoginTest -->
+      <class name="example.example.tests.GoogleSearchTest">
+        <test-method is-config="true" signature="globalSetup()[pri:0, instance:example.example.tests.GoogleSearchTest@5158b42f]" started-at="2023-05-22T05:54:42Z" name="globalSetup" test-instance-name="Google search test" finished-at="2023-05-22T05:54:42Z" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalSetup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:example.example.tests.GoogleSearchTest@5158b42f]" started-at="2023-05-22T05:54:42Z" name="setup" test-instance-name="Google search test" finished-at="2023-05-22T05:54:43Z" duration-ms="1318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="googleSearchTest()[pri:0, instance:example.example.tests.GoogleSearchTest@5158b42f]" started-at="2023-05-22T05:54:43Z" name="googleSearchTest" description="Test description" test-instance-name="Google search test" finished-at="2023-05-22T05:54:48Z" duration-ms="4786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTest -->
+        <test-method is-config="true" signature="wrapUp()[pri:0, instance:example.example.tests.GoogleSearchTest@5158b42f]" started-at="2023-05-22T05:54:48Z" name="wrapUp" test-instance-name="Google search test" finished-at="2023-05-22T05:54:48Z" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrapUp -->
+        <test-method is-config="true" signature="wrapAllUp(org.testng.ITestContext)[pri:0, instance:example.example.tests.GoogleSearchTest@5158b42f]" started-at="2023-05-22T05:54:53Z" name="wrapAllUp" test-instance-name="Google search test" finished-at="2023-05-22T05:54:53Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7d286fb6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrapAllUp -->
+      </class> <!-- example.example.tests.GoogleSearchTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
