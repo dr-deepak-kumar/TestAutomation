@@ -27,6 +27,7 @@ public class Hufttestpage extends BaseTest {
 		googlePage.searchText("abc");
 		Assert.assertTrue(driver.getTitle().contains("abc"), "Title doesn't contain abc : Test Failed");
 	    ITestResult result = Reporter.getCurrentTestResult();
+	    result.setAttribute("test", "TAIS-25");    
 		
 	}
 	@Test

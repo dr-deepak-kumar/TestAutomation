@@ -37,11 +37,15 @@ public class GoogleSearchTest extends BaseTest {
 		googlePage.searchText("abc");
 		Assert.assertTrue(driver.getTitle().contains("abc"), "Title doesn't contain abc : Test Failed");
 	    ITestResult result = Reporter.getCurrentTestResult();
+	    result.setAttribute("test", "TAIS-25");
+	    result.setAttribute("labels", "core addition")
 		
 	}
 	@Test
 	@XrayTest(labels="test2")
 	public void googleSearchTest3() {
+		
+	}
 		driver.get("https://www.google.co.in/");
 		GooglePage googlePage = PageinstancesFactory.getInstance(GooglePage.class);
 		googlePage.searchText("abc");
