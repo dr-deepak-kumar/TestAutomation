@@ -7,6 +7,8 @@
 	<test thread-count="5" name="Test" parallel="classes">
 		<classes>
 			<class name="example.example.tests.GoogleSearchTest" />
+			<class name="example.example.tests.hufttestpage" />
+		
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
