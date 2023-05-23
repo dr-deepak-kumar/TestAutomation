@@ -40,7 +40,7 @@ public class GoogleSearchTest extends BaseTest {
 		
 	}
 	@Test
-	@XrayTest(key="TAIS-25",labels="test1")
+	@XrayTest(labels="test2")
 	public void googleSearchTest3() {
 		driver.get("https://www.google.co.in/");
 		GooglePage googlePage = PageinstancesFactory.getInstance(GooglePage.class);
