@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-22T09:48:36Z" name="Suite" finished-at="2023-05-22T09:48:42Z" duration-ms="6124">
+  <suite started-at="2023-05-23T07:27:58Z" name="Suite" finished-at="2023-05-23T07:28:06Z" duration-ms="8725">
     <groups>
     </groups>
-    <test started-at="2023-05-22T09:48:36Z" name="Test" finished-at="2023-05-22T09:48:42Z" duration-ms="6124">
+    <test started-at="2023-05-23T07:27:58Z" name="Test" finished-at="2023-05-23T07:28:06Z" duration-ms="8725">
       <class name="example.example.tests.GoogleSearchTest">
-        <test-method is-config="true" signature="globalSetup()[pri:0, instance:example.example.tests.GoogleSearchTest@6ae5aa72]" started-at="2023-05-22T09:48:36Z" name="globalSetup" test-instance-name="Google search test" finished-at="2023-05-22T09:48:36Z" duration-ms="74" status="PASS">
+        <test-method is-config="true" signature="globalSetup()[pri:0, instance:example.example.tests.GoogleSearchTest@2e222612]" started-at="2023-05-23T07:27:58Z" name="globalSetup" test-instance-name="Google search test" finished-at="2023-05-23T07:27:58Z" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- globalSetup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:example.example.tests.GoogleSearchTest@6ae5aa72]" started-at="2023-05-22T09:48:36Z" name="setup" test-instance-name="Google search test" finished-at="2023-05-22T09:48:37Z" duration-ms="1480" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:example.example.tests.GoogleSearchTest@2e222612]" started-at="2023-05-23T07:27:58Z" name="setup" test-instance-name="Google search test" finished-at="2023-05-23T07:28:01Z" duration-ms="3032" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="googleSearchTest()[pri:0, instance:example.example.tests.GoogleSearchTest@6ae5aa72]" started-at="2023-05-22T09:48:37Z" name="googleSearchTest" description="Test description" test-instance-name="Google search test" finished-at="2023-05-22T09:48:42Z" duration-ms="4329" status="PASS">
+        <test-method signature="googleSearchTest()[pri:0, instance:example.example.tests.GoogleSearchTest@2e222612]" started-at="2023-05-23T07:28:01Z" name="googleSearchTest" description="Test description" test-instance-name="Google search test" finished-at="2023-05-23T07:28:06Z" duration-ms="5369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleSearchTest -->
-        <test-method is-config="true" signature="wrapUp()[pri:0, instance:example.example.tests.GoogleSearchTest@6ae5aa72]" started-at="2023-05-22T09:48:42Z" name="wrapUp" test-instance-name="Google search test" finished-at="2023-05-22T09:48:42Z" duration-ms="162" status="PASS">
+        <test-method is-config="true" signature="wrapUp()[pri:0, instance:example.example.tests.GoogleSearchTest@2e222612]" started-at="2023-05-23T07:28:06Z" name="wrapUp" test-instance-name="Google search test" finished-at="2023-05-23T07:28:06Z" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wrapUp -->
-        <test-method is-config="true" signature="wrapAllUp(org.testng.ITestContext)[pri:0, instance:example.example.tests.GoogleSearchTest@6ae5aa72]" started-at="2023-05-22T09:48:42Z" name="wrapAllUp" test-instance-name="Google search test" finished-at="2023-05-22T09:48:45Z" duration-ms="2377" status="PASS">
+        <test-method is-config="true" signature="wrapAllUp(org.testng.ITestContext)[pri:0, instance:example.example.tests.GoogleSearchTest@2e222612]" started-at="2023-05-23T07:28:07Z" name="wrapAllUp" test-instance-name="Google search test" finished-at="2023-05-23T07:28:09Z" duration-ms="2321" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2371aaca]]>
+                <![CDATA[org.testng.TestRunner@3243b914]]>
               </value>
             </param>
           </params>
