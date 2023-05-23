@@ -3,6 +3,7 @@ package example.example.tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import app.getxray.xray.testng.annotations.XrayTest;
 import example.example.factory.PageinstancesFactory;
 import example.example.pages.GooglePage;
 
@@ -12,12 +13,14 @@ import example.example.pages.GooglePage;
  * @author Bharathish
  */
 @Test(testName = "Google search test", description = "Test description")
+@XrayTest(key = "TAIS-20")
 public class GoogleSearchTest extends BaseTest {
 
 	/**
 	 * Google search test.
 	 */
 	@Test
+	
 	public void googleSearchTest() {
 		driver.get("https://www.google.co.in/");
 		GooglePage googlePage = PageinstancesFactory.getInstance(GooglePage.class);
