@@ -25,7 +25,17 @@ public class GoogleSearchTest extends BaseTest {
 		driver.get("https://www.google.co.in/");
 		GooglePage googlePage = PageinstancesFactory.getInstance(GooglePage.class);
 		googlePage.searchText("abc");
-		ITestResult result = Reporter.getCurrentTestResult();
 		Assert.assertTrue(driver.getTitle().contains("abc"), "Title doesn't contain abc : Test Failed");
+		ITestResult result = Reporter.getCurrentTestResult();
+		
+	}
+	@Test
+	public void googleSearchTest2() {
+		driver.get("https://www.google.co.in/");
+		GooglePage googlePage = PageinstancesFactory.getInstance(GooglePage.class);
+		googlePage.searchText("abc");
+		Assert.assertTrue(driver.getTitle().contains("abc"), "Title doesn't contain abc : Test Failed");
+	    ITestResult result = Reporter.getCurrentTestResult();
+		
 	}
 }
