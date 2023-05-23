@@ -21,7 +21,6 @@ public class GoogleSearchTest extends BaseTest {
 	 * Google search test.
 	 */
 	@Test
-	@Requirement(key = "TASP-10")
 	@XrayTest(key = "TAIS-25")	
 	
 	public void googleSearchTest() {
