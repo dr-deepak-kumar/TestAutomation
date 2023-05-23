@@ -14,14 +14,13 @@ import example.example.pages.GooglePage;
  *
  * @author Bharathish
  */
-@Test(testName = "Google search test", description = "Test description")
+@Test(testName = "Google search test1", description = "Test description1")
 public class GoogleSearchTest extends BaseTest {
 
 	/**
 	 * Google search test.
 	 */
 	@Test
-	@XrayTest(key="TAIS-25")	
 	public void googleSearchTest1() {
 		driver.get("https://www.google.co.in/");
 		GooglePage googlePage = PageinstancesFactory.getInstance(GooglePage.class);
