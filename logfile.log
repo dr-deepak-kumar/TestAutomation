@@ -32,3 +32,13 @@
 2023-05-22 14:16:26,711 Mail sending toggel is set to false 
 2023-05-22 14:16:26,711 Mail sent : false 
 2023-05-22 14:16:26,711 ************************** Test Execution Finished ************************************ 
+2023-05-22 15:18:36,479 ************************** Test Execution Started ************************************ 
+2023-05-22 15:18:38,050 Google search test: Test started 
+2023-05-22 15:18:42,443 Google search test : Test Passed 
+2023-05-22 15:18:42,739 Total number of testcases : 1 
+2023-05-22 15:18:42,739 Number of testcases Passed : 1 
+2023-05-22 15:18:42,739 Number of testcases Failed : 0 
+2023-05-22 15:18:42,739 Number of testcases Skipped  : 0 
+2023-05-22 15:18:45,115 Could not send mail : Third party error 
+2023-05-22 15:18:45,115 Mail sent : false 
+2023-05-22 15:18:45,115 ************************** Test Execution Finished ************************************ 
