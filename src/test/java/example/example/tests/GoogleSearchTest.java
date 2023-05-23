@@ -20,29 +20,22 @@ public class GoogleSearchTest extends BaseTest {
 	 * Google search test.
 	 */
 	@Test
-	@XrayTest(labels="test1")
-	public void googleSearchTest() {
+		public void googleSearchTest() {
 		driver.get("https://www.google.co.in/");
 		GooglePage googlePage = PageinstancesFactory.getInstance(GooglePage.class);
 		googlePage.searchText("abc");
 		Assert.assertTrue(driver.getTitle().contains("abc"), "Title doesn't contain abc : Test Failed");
-	    ITestResult result = Reporter.getCurrentTestResult();
-		
+	 	
 	}
 	@Test
-	@XrayTest(key="TAIS-25",labels="test1")
 	public void googleSearchTest1() {
 		driver.get("https://www.google.co.in/");
 		GooglePage googlePage = PageinstancesFactory.getInstance(GooglePage.class);
 		googlePage.searchText("abc");
 		Assert.assertTrue(driver.getTitle().contains("abc"), "Title doesn't contain abc : Test Failed");
-	    ITestResult result = Reporter.getCurrentTestResult();
-	    result.setAttribute("test", "TAIS-25");
-	    result.setAttribute("labels", "core addition")
-		
+	  
 	}
 	@Test
-	@XrayTest(labels="test2")
 	public void googleSearchTest3() {
 		
 	}
@@ -50,6 +43,5 @@ public class GoogleSearchTest extends BaseTest {
 		GooglePage googlePage = PageinstancesFactory.getInstance(GooglePage.class);
 		googlePage.searchText("abc");
 		Assert.assertTrue(driver.getTitle().contains("abc"), "Title doesn't contain abc : Test Failed");
-	    ITestResult result = Reporter.getCurrentTestResult();
 	
 }

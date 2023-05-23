@@ -20,33 +20,25 @@ public class Hufttestpage extends BaseTest {
 	 * Google search test.
 	 */
 	@Test
-	@XrayTest(labels="test1")
 	public void huftSearchTest() {
 		driver.get("https://www.google.co.in/");
 		GooglePage googlePage = PageinstancesFactory.getInstance(GooglePage.class);
 		googlePage.searchText("abc");
 		Assert.assertTrue(driver.getTitle().contains("abc"), "Title doesn't contain abc : Test Failed");
-	    ITestResult result = Reporter.getCurrentTestResult();
-	    result.setAttribute("test", "TAIS-25");    
 		
 	}
 	@Test
-	@XrayTest(labels="test1")
 	public void huftSearchTest1() {
 		driver.get("https://www.google.co.in/");
 		GooglePage googlePage = PageinstancesFactory.getInstance(GooglePage.class);
 		googlePage.searchText("abc");
 		Assert.assertTrue(driver.getTitle().contains("abc"), "Title doesn't contain abc : Test Failed");
-	    ITestResult result = Reporter.getCurrentTestResult();
-		
 	}
 	@Test
-	@XrayTest(labels="test2")
 	public void huftSearchTest3() {
 		driver.get("https://www.google.co.in/");
 		GooglePage googlePage = PageinstancesFactory.getInstance(GooglePage.class);
 		googlePage.searchText("abc");
 		Assert.assertTrue(driver.getTitle().contains("abc"), "Title doesn't contain abc : Test Failed");
-	    ITestResult result = Reporter.getCurrentTestResult();
 	
 }
