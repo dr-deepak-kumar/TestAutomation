@@ -144,6 +144,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;app.getxray.xray.testng.listeners.XrayListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;example.example.tests.GoogleSearchTest&quot;/&gt;
@@ -190,7 +193,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'googleSearchTest')
 data.setCell(0, 2, 'example.example.tests.GoogleSearchTest')
-data.setCell(0, 3, 5369);
+data.setCell(0, 3, 5420);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -228,19 +231,19 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">46 ms</span>
+                <span class="method-start">45 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">googleSearchTest</span>
-                <span class="method-start">3086 ms</span>
+                <span class="method-start">1506 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">wrapUp</span>
-                <span class="method-start">8592 ms</span>
+                <span class="method-start">7084 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
-                <span class="method-name">wrapAllUp(org.testng.TestRunner@3243b914)</span>
-                <span class="method-start">9052 ms</span>
+                <span class="method-name">wrapAllUp(org.testng.TestRunner@666b83a4)</span>
+                <span class="method-start">7569 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

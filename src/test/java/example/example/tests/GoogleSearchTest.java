@@ -1,5 +1,6 @@
 package example.example.tests;
-
+import org.testng.ITestResult;
+import org.testng.Reporter;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -13,7 +14,6 @@ import example.example.pages.GooglePage;
  * @author Bharathish
  */
 @Test(testName = "Google search test", description = "Test description")
-@XrayTest(key = "TAIS-20")
 public class GoogleSearchTest extends BaseTest {
 
 	/**
@@ -25,6 +25,7 @@ public class GoogleSearchTest extends BaseTest {
 		driver.get("https://www.google.co.in/");
 		GooglePage googlePage = PageinstancesFactory.getInstance(GooglePage.class);
 		googlePage.searchText("abc");
+		ITestResult result = Reporter.getCurrentTestResult();
 		Assert.assertTrue(driver.getTitle().contains("abc"), "Title doesn't contain abc : Test Failed");
 	}
 }

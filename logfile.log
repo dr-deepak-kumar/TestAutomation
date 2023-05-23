@@ -52,3 +52,13 @@
 2023-05-23 12:58:09,479 Could not send mail : Third party error 
 2023-05-23 12:58:09,479 Mail sent : false 
 2023-05-23 12:58:09,479 ************************** Test Execution Finished ************************************ 
+2023-05-23 14:33:55,194 ************************** Test Execution Started ************************************ 
+2023-05-23 14:33:56,662 Google search test: Test started 
+2023-05-23 14:34:02,081 Google search test : Test Passed 
+2023-05-23 14:34:02,724 Total number of testcases : 1 
+2023-05-23 14:34:02,724 Number of testcases Passed : 1 
+2023-05-23 14:34:02,724 Number of testcases Failed : 0 
+2023-05-23 14:34:02,724 Number of testcases Skipped  : 0 
+2023-05-23 14:34:05,073 Could not send mail : Third party error 
+2023-05-23 14:34:05,073 Mail sent : false 
+2023-05-23 14:34:05,073 ************************** Test Execution Finished ************************************ 
